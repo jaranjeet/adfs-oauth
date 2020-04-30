@@ -9,7 +9,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'dashboard#index'
-
+  match '/auth/:provider/callback' => 'sessions#create', via: [:get, :post]
+  match '/auth/failure' => 'sessions#failure', via: [:get]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
