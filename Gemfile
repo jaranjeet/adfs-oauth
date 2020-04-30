@@ -35,7 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml-rails'
 gem 'devise', '3.4.1'
 gem 'bootstrap-sass'
-gem 'omniauth-wsfed'
+gem 'omniauth'
+gem 'omniauth-wsfed', '0.3.2.pre.beta'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
