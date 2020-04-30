@@ -33,7 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'haml-rails'
-gem 'devise', '3.4.1'
+gem 'devise', '4.7.1'
 gem 'bootstrap-sass'
 gem 'omniauth'
 gem 'omniauth-wsfed', '0.3.2.pre.beta'
